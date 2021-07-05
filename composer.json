@@ -1,0 +1,22 @@
+{
+    "name": "elaax/module-heandelbund",
+    "description": "AGB Händlerbund Module for Magento 2.4.2 and above",
+	"version": "1.0.0",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Danie Bauer ELAAX"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "elaax\\heandlerbund\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
